@@ -2,6 +2,9 @@ body{
     margin: 0;
 }
 .main-login{
+    margin: 0;
+    padding: 0;
+    border: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -28,9 +31,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: coraqui;
+    background: #664CAF;
 }
 .card-login{
+    margin: 0;
+    padding: 0;
+    border: 0;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -38,7 +44,7 @@ body{
     align-items: center;
     padding: 30px 35px;
     background: coraqui;
-    border-radius: 15px;
+    border-radius: 25px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .textfield{
@@ -48,7 +54,12 @@ body{
     justify-content: center;
 }
 .imgback{
+    width: 20%;
+    height: 20%;
     margin: 0;
     border: 0;
     padding: 0;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
