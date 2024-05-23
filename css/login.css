@@ -1,10 +1,10 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 .main-login{
-    margin: 0;
-    padding: 0;
-    border: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -12,38 +12,34 @@ body{
     align-items: center;
     background: coraqui;
 
-}
-.left-login{
-    margin: 0;
-    padding: 0;
-    border: 0;
+ }
+ 
+.right-login{
     width: 50vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: coraqui;
+    background: white;
 }
-.right-login{
+.left-login{
     width: 50vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #664CAF;
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
 }
-.card-login{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: 60%;
+
+.card{
     display: flex;
+    width: 60%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 35px;
-    background: coraqui;
     border-radius: 25px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
@@ -53,13 +49,45 @@ body{
     align-items: flex-start;
     justify-content: center;
 }
+.textfield label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #664CAF;
+}
 .imgback{
-    width: 20%;
-    height: 20%;
+    max-width: 30%;
+    max-height: 30%;
+}
+.card-head{
+    display: flex;
+    padding: 6%;
+    width: 100%;
+    justify-self: flex-start;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+.card-head h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #664CAF;
+}
+.card-title{
     margin: 0;
-    border: 0;
-    padding: 0;
-    border-radius: 50px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #664CAF;
+}
+.btn-primary{
+    background-color: #664CAF;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.card-body button{
+    margin: 3%;
+    width: 80%;
 }
