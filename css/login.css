@@ -91,3 +91,16 @@
     margin: 3%;
     width: 80%;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.form-check a{
+    color: #664CAF;
+}
+a:hover{
+    color: #664CAF;
+}
+.btn-primary:hover{
+    background-color: white;
+}
