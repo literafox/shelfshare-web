@@ -1,19 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-}
 .main-login{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: coraqui;
-
- }
- 
+}
 .right-login{
     width: 50vw;
     height: 100vh;
@@ -33,7 +24,6 @@
     border-bottom-right-radius: 3%;
     border-top-right-radius: 3%;
 }
-
 .card{
     display: flex;
     width: 60%;
@@ -77,9 +67,7 @@
     font-weight: 500;
     color: #664CAF;
 }
-.btn-primary{
-    background-color: #664CAF;
-}
+
 .card-body{
     display: flex;
     flex-direction: column;
@@ -91,16 +79,32 @@
     margin: 3%;
     width: 80%;
 }
-a{
-    text-decoration: none;
-    color: white;
+.form-check{
+    margin-bottom: 2%;
 }
 .form-check a{
+    padding: 0;
     color: #664CAF;
+    background-color: white;
+    border: 0;
 }
-a:hover{
-    color: #664CAF;
+.btn-primary{
+    background-color: #664CAF;
+    color: white;
+    border: 0;
+    padding: 2%;
+    width: 80%;
 }
 .btn-primary:hover{
     background-color: white;
+    color: #664CAF;
+    border: solid 1px #664CAF;
+}
+p{
+    color: red;
+    margin: 0;
+}
+.form-check-input:checked{
+    background-color: #664CAF;
+    color: white;
 }

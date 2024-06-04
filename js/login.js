@@ -1,15 +1,14 @@
 function verificaForm() {
-    const email = document.getElementById("inputEmail").value;
+    const usuario = document.getElementById("inputUsuario").value;
     const password = document.getElementById("inputPassword").value;
-    const passwordlength = document.getElementById("inputPassword").length;
   
-    if (email === "") {
-      document.getElementById("erroEmail").innerHTML = "Preencha os campos primeiro!";
+    if (usuario === "") {
+      document.getElementById("erroUser").innerHTML = "Você precisa preecher com um Usuário!";
     }
     if (password === "") {
-      document.getElementById("erroPassword").innerHTML = "Preencha os campos primeiro!";
+      document.getElementById("erroPassword").innerHTML = "Você precisa preecher com uma Senha!";
     }
-    if (passwordlength < 6) {
-      document.getElementById("erroPassword").innerHTML = "Sua senha deve ter pelo menos 6 caracteres!";
+    if (usuario !== "" && password !== "") {
+      window.location.href = "home.html";
     }
 }
