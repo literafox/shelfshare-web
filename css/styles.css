@@ -3,14 +3,38 @@
     padding: 0;
     background-color: red;
 }
+.btn-primary{
+    background-color: #301c6e;
+    color: white;
+    padding: 0.3rem 1rem;
+}
 .index-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    height: 10vh;
+    height: 15vh;
     background-color: green;
-
+}
+.left-header{
+    margin: 0;
+    background-color: yellow;
+    height: 15vh;
+    width: 30%;
+}
+.right-header{
+    display: flex;
+    margin: 0;
+    padding: 2.5rem 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: orange;
+    height: 15vh;
+    width: 30%;
+    gap: 1rem;
 }
 .index-main{
     background-color: aqua;
-    height: 90vh;
+    height: 85vh;
 }
